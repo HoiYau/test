@@ -1,7 +1,7 @@
 import streamlit as st
 import requests
 
-API_BASE_URL = "http://45.115.220.233:4658"  # Adjust the base URL as needed
+API_BASE_URL = "http://0.0.0.0:4658"  # Adjust the base URL as needed
 
 def call_api(endpoint, method='GET', data=None, params=None, files=None):
     url = f"{API_BASE_URL}{endpoint}"
